@@ -106,10 +106,10 @@ npm run rpc-example
 <br><br>
 ## 🟢 Hata Çözümleri
 
-Serialization time limit 15000us exceeded
+Serialization time limit 15000us exceeded<br>
 
-<br>
-* config.ini dosyanda max-transaction-time değerini 15000 olarak değiştir <br>
+
+* config.ini dosyanda max-transaction-time değerini 15000 olarak değiştir<br>
 
 ```
 nano ./inery-node/inery.setup/master.node/blockchain/config/config.ini
