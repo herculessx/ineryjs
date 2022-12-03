@@ -68,10 +68,12 @@ sudo apt install npm
    nano .env
    ```
 
-Burada açılan pencerede <br>
+Burada açılan pencerede <br><br>
 
-INERY_ACCOUNT=  İnery hesap isminiz <br>
-PRIVATE_KEY="keyiniz"<br>
+Aşağıdaki Bilgileri inery testnet Dashboard kısmında bulabilirsiniz.<br><br>
+
+INERY_ACCOUNT="HESAP ADINIZ" <br>
+PRIVATE_KEY="KEYİNİZ"<br>
 NODE_URL="http://NODEİPADRESİ:8888" 
 <br><br>
 
