@@ -1,5 +1,5 @@
-## 🟢 Inery Json RPC 4.Görev
-Inery Blockchain'de JSON RPC'yi çağırmak için örnek bir kod
+# Inery Json RPC 4.Görev
+Inery Blockchain'de JSON RPC'yi çağırmak için örnek kod
 
 ## 🟢Bilgiler
 
@@ -38,31 +38,31 @@ sudo apt install npm
 
 ## 🟢 Kurulum
 
-1. Repoyu klonlayın
+* Repoyu klonlayın
 
    ```
    git clone https://github.com/herculessx/ineryjs.git
    ```
 
-2. Dizine Girin
+* Dizine Girin
 
    ```
    cd ineryjs
    ```
 
-3. NPM Paket kurun
+* NPM Paket kurun
 
    ```
    npm install
    ```
 
-4. Aşağıdaki Kod ile env-sample dosyasının ismini .env yapın 
+* Aşağıdaki Kod ile env-sample dosyasının ismini .env yapın 
 
    ```
    cp .env-sample .env
    ```
 
-5.  ```.env``` bilgileriniz düzenleyin
+*  ```.env``` bilgileriniz düzenleyin
 
   ```
    nano .env
