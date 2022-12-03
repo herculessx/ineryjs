@@ -89,7 +89,7 @@ RPC Örneği Çalıştır
 sudo ufw allow 8888
 ```
 
-
+<br>
 ## 🟢 Çalıştırma
 
 RPC Örneği Çalıştır
@@ -100,3 +100,18 @@ npm run rpc-example
 
 işlem çıktısı aşağıdaki gibi olmalı<br>
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/inery-okey.PNG" width="750">
+
+
+<br><br>
+## 🟢 Hata Çözümleri
+
+Serialization time limit 15000us exceeded
+
+<br>
+config.ini dosyanda max-transaction-time değerini 15000 olarak değiştir 
+
+```
+nano ./inery-node/inery.setup/master.node/blockchain/config/config.ini
+```
+
+<img src="https://camo.githubusercontent.com/6036fa176fe713bfa7e8151aef13b77710b589c33dff2f7ae459d2b8785e0efc/68747470733a2f2f736e6970626f6172642e696f2f61306472474e2e6a7067" width="550">
