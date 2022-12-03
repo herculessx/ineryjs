@@ -92,15 +92,14 @@ sudo ufw allow 8888
 ```
 
 <br>
-## 🟢 Çalıştırma
 
-RPC Örneği Çalıştır
+## 🟢 Çalıştırma
 
 ```
 npm run rpc-example
 ```
 
-işlem çıktısı aşağıdaki gibi olmalı<br>
+işlem çıktısı aşağıdaki gibi olmalı<br><br>
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/inery-okey.PNG" width="750">
 
 
