@@ -44,19 +44,19 @@ sudo apt install npm
    git clone https://github.com/herculessx/ineryjs.git
    ```
 
-2. Dizini klonlanmış depoya değiştir
+2. Dizine Girin
 
    ```
    cd ineryjs
    ```
 
-3. NPM Paket kurulumu
+3. NPM Paket kurun
 
    ```
    npm install
    ```
 
-4. `.env-sample`  `.env` yeniden adlandırın
+4. Yeni env dosyası oluşturun ve düzenleyin
 
    ```
    cp .env-sample .env
