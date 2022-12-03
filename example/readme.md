@@ -56,7 +56,7 @@ sudo apt install npm
    npm install
    ```
 
-4. Yeni env dosyası oluşturun ve düzenleyin
+4. Aşağıdaki Kod ile env-sample dosyasının ismini .env yapın 
 
    ```
    cp .env-sample .env
