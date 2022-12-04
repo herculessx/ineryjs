@@ -122,3 +122,32 @@ nano ./inery-node/inery.setup/master.node/blockchain/config/config.ini
 ```
 
 <img src="https://camo.githubusercontent.com/6036fa176fe713bfa7e8151aef13b77710b589c33dff2f7ae459d2b8785e0efc/68747470733a2f2f736e6970626f6172642e696f2f61306472474e2e6a7067" width="550">
+
+<br><br>
+
+* connect ECONNREFUSED<br>
+
+
+```
+sudo ufw allow 8888
+```
+
+<img src="https://camo.githubusercontent.com/d7bfd0c198035faa303e9a8b5714668384dd1d00a681b444718757b7a4872365/68747470733a2f2f736e6970626f6172642e696f2f5567534d48322e6a7067" width="550">
+
+
+<br><br>
+
+* missing create.issuer ( type=name )<br>
+* Bu, hesabınızda Görev 3'te oluşturduğunuz Değerli Akıllı Sözleşme olmadığı anlamına gelir.
+* Hesabınızda CRUD Akıllı Sözleşmenizin olup olmadığını kontrol etmek için
+
+```
+cline get abi ineryi-hesap-isminiz
+```
+
+<img src="https://camo.githubusercontent.com/35161f3c497c316d89925c7d1300ddaa78354daed4b783f615bd1561fd2bdba7/68747470733a2f2f736e6970626f6172642e696f2f615442484c332e6a7067" width="550">
+
+* bu çıktıya sahip olduğunuzdan emin olun<br><br>
+
+<img src="https://camo.githubusercontent.com/107661c26d281a09dcc3495a03f04ab90e90148f506479ad54f2d5df26e82150/68747470733a2f2f736e6970626f6172642e696f2f3076736e4f712e6a7067" width="550">
+
